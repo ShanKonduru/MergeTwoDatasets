@@ -12,7 +12,7 @@ merge_data = MergeDataSets(data_set1=set_1, data_set2=set_2, output_file=output)
 merge_data.displayImpact()
 
 # Create an instance of the PlotDataSets class
-plot_merged_data = PlotDataSets()
+plot_merged_data = PlotDataSets(output_data=output)
 
 # Load the data and plot the bubble chart
 plot_merged_data.loadData()
