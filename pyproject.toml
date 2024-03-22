@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "mergetwodatasets"
+version = "0.1.0"
+description = "Merge TWO data sets and calculate fields"
+authors = ["Shan Konduru <shankonduru@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.1"
+numpy = "^1.26.4"
+
+[tool.poetry.group.dev.dependencies]
+numpy = "^1.26.4"
+pandas = "^2.2.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
